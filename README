@@ -1,3 +1,5 @@
 This project basically demonstrates what JSPTest does.  Test class is in src/test/java/JSPStringInputTest.java
 
 JSPTest's sourceforge page is at http://jsptest.sourceforge.net/, but is very poorly documented.  This Java project uses Maven to pull the latest version of it, 0.19, which doesn't seem too oudated (Nov 2009).  The latest SVN commit is at http://sourceforge.net/mailarchive/message.php?msg_id=25512187 which is in June 2010.
+
+The easiest way to run this "application" is to use maven with the target "test", i.e. just invoke the command "mvn test".  Maven should automatically download the necessary dependencies.
